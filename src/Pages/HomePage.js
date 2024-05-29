@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../Components/Header";
 import Banner from "../Components/Banner";
 import Slider from "../Components/Slider";
+import Academics from "../Components/Academics";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
         path="/mamamoo/collaborations"
         params={{ artistId: "MAMAMOO_ARTIST_ID" }}
       />
+      <Academics />
     </div>
   );
 };
