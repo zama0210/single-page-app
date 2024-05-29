@@ -1,0 +1,19 @@
+.media-slider {
+  color: white;
+  padding-top: 30px;
+}
+
+.media-slider__title {
+  margin-top: 0;
+  padding: 0 20px;
+}
+
+.media-slider__cards {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+}
+
+.media-slider__cards::-webkit-scrollbar {
+  display: none;
+}
